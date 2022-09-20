@@ -1,0 +1,90 @@
+@import url("master.css");
+
+section#pricing div#container {
+	display: flex;
+	width: 900px;
+	margin: 40px auto;
+}
+section#pricing div#container div.plan {
+	flex: 1;
+	margin: 0 10px;
+	border: 3px solid rgb(223, 223, 223);
+	border-radius: 10px;
+	overflow: hidden;
+}
+section#pricing div#container div.plan div.title {
+	background: rgb(40, 40, 40);
+	color: white;
+	padding: 20px;
+	border-bottom: 3px solid rgb(223, 223, 223);
+}
+/*
+section#pricing div#container div.plan:nth-child(2) {
+	border: 1px solid orange;
+
+}
+section#pricing div#container div.plan:nth-child(2) div.title {
+	
+	background: orange;
+	color: black;
+
+}*/
+section#pricing div#container div.plan div.title h1 {
+	font-size: 40px;
+}
+
+section#pricing div#container div.plan div.title h2 {
+	background:rgb(76, 76, 76);
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border-bottom: 2px solid gray;
+}
+section#pricing div#container div.plan ul {
+	padding: 20px 30px 20px 50px;
+	position: relative;
+}
+section#pricing div#container div.plan li {
+	font-size: 15px;
+}
+section#pricing div#container div.plan li + li {
+	margin-top: 15px;
+}
+
+section.action {
+	text-align: center;
+	width: 600px;
+	margin: 30px auto;
+}
+
+section.action h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+section.action p {
+	font-size: 17px;
+}
+
+section.action a {
+	color: rgb(62, 133, 255);
+	text-decoration: none;
+}
+section.action a:hover {
+	text-decoration: underline;
+}
+@media (max-width: 1000px) {
+	section#pricing div#container {
+		width: 90%;
+		flex-direction: column;
+	}
+	section#pricing div#container div.plan {
+		margin: 10px 0;
+	}
+}
+
+@media (max-width: 700px) {
+	
+	section.action {
+		width: 90%;
+	}
+}

@@ -1,0 +1,148 @@
+@import url("master.css");
+
+header {
+	padding: 80px 0 100px 0;
+}
+
+header div#container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 700px;
+	margin: 0 auto;
+}
+header div#container div#info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 30px;
+}
+header div#container div#info h1 {
+	font-size: 40px;
+}
+header div#container div#info p {
+	font-size: 20px;
+}
+header div#container div#picture img {
+	width: 200px;
+	padding: 10px;
+	border-radius: 50%;
+	border: 2px solid orange;
+	transform: rotate3d(20deg, 20deg, 20deg);
+}	
+header div#container div#info div#links {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	width: 150px;
+}
+header div#container div#info div#links a {
+	color: black;
+	font-size: 30px; 
+	flex: 1;
+}
+section#about {
+	
+	text-align: center;
+	padding: 40px 0;
+}
+
+section#about h1 {
+	font-size: 30px;
+}
+section#about div#container {
+	width: 700px;
+	margin: 10px auto 0;
+	text-align: left;
+}
+
+section#about div#container p {
+	font-size: 18px;
+}
+section#services {
+	text-align: center;
+	padding: 40px 0;
+}
+section#services h1 {
+	font-size: 30px;
+}
+section#services div#container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 700px;
+	margin: 30px auto 50px auto;
+	text-align: center;
+}
+
+section#services div#container div.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+section#services div#container div.service h2 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+section#services div#container div.service h3 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+section#services div#container div.service p {
+	font-size: 14px;
+}
+section#services a {
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	background: black;
+	padding: 10px 20px;
+	border-radius: 5px;
+	position: relative;
+	top: 10px;
+}
+@media (max-width: 800px) {
+
+	header div#container {
+
+		width: 90%;
+	}
+	header div#container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	header div#container div#picture {
+		margin-bottom: 20px;
+	}
+	header div#container div#info {
+		margin: 0;
+	}
+	header div#container div#info div#links {
+		margin: 15px auto 0 auto;
+	}
+	header div#container div#info div#links a {
+		text-align: center;
+	}
+	
+	section#about div#container {
+		width: 90%;
+	}
+	section#services div#container {
+		width: 90%;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	section#services div#container div.service h2 {
+		margin-bottom: 10px;
+	}
+	section#services div#container div.service {
+		width: 100%;
+		margin: 30px auto;
+	}
+
+}
