@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Salint/portfolio/issues"
   },
-  "homepage": "https://github.com/Salint/portfolio#readme"
+  "homepage": "https://github.com/Salint/portfolio#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
 }
