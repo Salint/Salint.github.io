@@ -1,2 +1,2 @@
-# Portfolio
-This is something I put together quickly. It's not the best, nor will I give it any attention anymore. I just wanted something for me.
+Hello. I'm a 19-year-old software developer from Egypt. I am currently studying Computer Science at Tanta University. I love games.
+
